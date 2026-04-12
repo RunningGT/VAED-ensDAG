@@ -8,10 +8,10 @@ The data required for this project can be obtained from the [Science Data Bank](
 
 ## Repository Structure
 
-- `upstream.py`: The upstream code file. Contains causal discovery (FCI, PC, etc.), feature selection, graph construction, and model/network class encapsulations related to DAG-GNN and VAED/iVAE.
+- `upstream.py`: The upstream code file. Contains causal discovery (FCI, PC, etc.), feature selection, graph construction, and model class encapsulations related to DAG-GNN and VAED/iVAE.
 - `downstream.py`: The downstream code file. Contains the main execution entry (`main`), Graph Neural Network models (GraphSAGE, ECMPNN, GCN), traditional machine learning evaluation models (RF, MLP, LGB, XGB), as well as the prediction and evaluation pipelines. This file serves as the main entry point to run the system.
 - `experiment.py`: The original unified execution code (a backup of the monolithic logic before it was split).
-- `get_k3_latent.py`: Auxiliary script (for extracting latent variables/clustering auxiliary models when K=3).
+- `get_k3_latent.py`: Auxiliary script for extracting latent variables in GMM space when K=3.
 - `run_avaed_ablations.py`: Script to control and batch-run AVAED ablation experiments.
 - `prompt.txt` : Model prompts 
 - `LICENSE` : Open source license files.
