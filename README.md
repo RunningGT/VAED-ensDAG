@@ -18,17 +18,17 @@ The data required for this project can be obtained from the [Science Data Bank](
 
 ## Environment Requirements
 
-The following are the core dependencies and tested versions in the `myCausalML` environment for this workspace:
+The following are the recommended core dependencies for the `myCausalML` environment in this work, which can be adjusted according to specific actual conditions:
 
-- **Python** $\ge$ `3.11`
-- **PyTorch** $\ge$ `2.0.0`
-- **NumPy** $\ge$ `1.24.0` 
-- **Pandas** $\ge$ `2.0.0`
-- **NetworkX** $\ge$ `2.8.0`
-- **Matplotlib** $\ge$ `3.5.0`
-- **Scikit-Learn** $\ge$ `1.3.0`
-- **XGBoost** $\ge$ `2.0.0`
-- **Causal-Learn** $\ge$ `0.1.3`
+- **Python** ≥ `3.9`
+- **PyTorch** ≥ `2.0.0`
+- **NumPy** ≥ `1.21.0`
+- **Pandas** ≥ `1.3.0`
+- **NetworkX** ≥ `2.8.0`
+- **Matplotlib** ≥ `3.5.0`
+- **Scikit-Learn** ≥ `1.2.0`
+- **XGBoost** ≥ `1.6.0`
+- **Causal-Learn** ≥ `0.1.3`
 
 It is recommended to use `conda` to install a PyTorch version that matches your CUDA hardware, and then install other dependencies via `pip` or `conda`.
 
